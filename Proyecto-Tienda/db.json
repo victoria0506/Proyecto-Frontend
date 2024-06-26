@@ -1,0 +1,10 @@
+{
+    "Productos": [
+      {
+        "id": "6fe5",
+        "Joya": "Aretes",
+        "Material": "plata",
+        "Precio" : "3.000"
+      }
+    ]
+  }
