@@ -5,6 +5,12 @@
         "Joya": "Aretes",
         "Material": "plata",
         "Precio" : "3.000"
+      },
+      {
+        "id": "5",
+        "Joya": "collar",
+        "Material": "oro",
+        "Precio" : "3.000"
       }
     ]
   }
