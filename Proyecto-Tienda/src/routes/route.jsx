@@ -5,6 +5,10 @@ import Login from "../pages/login"
 import Home from "../pages/home"
 import Productos from "../pages/productos"
 import Acerca from "../pages/acerca"
+import Contact from "../pages/contact"
+import PrivateRoute from "./privateRoute"
+
+
 function routing() {
   return (
     <div>
@@ -14,7 +18,10 @@ function routing() {
           <Route path='/registro' element={<Registro/>}   />
           <Route path='/login' element={<Login/>}   />
           <Route path='/home' element={<Home/>}   />
-          <Route path="/productos" element={<Productos />} />
+          <Route path="/productos" element={ <PrivateRoute>
+            <Productos />
+          </PrivateRoute> } />
+          <Route path="/contact" element = {<Contact />} />
           <Route path="/acerca" element ={<Acerca />}/>
         </Routes>
       </Router>

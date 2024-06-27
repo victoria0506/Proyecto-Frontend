@@ -1,4 +1,5 @@
 import Routing from './routes/route'
+import Navbari from './components/navbar/navbar'
 
 function App() {
 
@@ -6,7 +7,8 @@ function App() {
   return (
     <>
       <div>
-       <Routing />
+      <Navbari />
+      <Routing />
       </div>
     
     </>

@@ -14,11 +14,9 @@ const FormProductos = () => {
         return
     }else{
       postProductos(producto, precio, material)
-        setMensaje("Se añadio correctamente")
-        
+      setMensaje("Se añadio correctamente")
     }
     }
-
 
   return (
     <div>

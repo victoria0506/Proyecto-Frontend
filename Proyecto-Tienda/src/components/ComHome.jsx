@@ -4,7 +4,7 @@ const ComHome = () => {
   return (
     <div>
       <br />
-      <h2>Productos</h2>
+      <h4>Productos Destacados</h4>
     </div>
   )
 }
