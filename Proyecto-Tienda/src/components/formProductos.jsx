@@ -1,3 +1,4 @@
+
 import { useState } from "react"
 import postProductos from "../service/postProductos"
 
@@ -32,8 +33,12 @@ const FormProductos = () => {
       <button onClick={produc}>Añadir Producto</button>
       <br /><br />
       <h5>{mensaje}</h5>
-    </div>
+
+
+      </div>
   )
 }
 
+
 export default FormProductos
+
