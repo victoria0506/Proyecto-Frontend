@@ -1,16 +1,42 @@
 {
-    "Productos": [
-      {
-        "id": "6fe5",
-        "Joya": "Aretes",
-        "Material": "plata",
-        "Precio" : "3.000"
-      },
-      {
-        "id": "5",
-        "Joya": "collar",
-        "Material": "oro",
-        "Precio" : "3.000"
-      }
-    ]
-  }
+  "Productos": [
+    {
+      "id": "6fe5",
+      "Joya": "Aretes",
+      "Material": "plata",
+      "Precio": "3.000"
+    },
+    {
+      "id": "5",
+      "Joya": "collar",
+      "Material": "oro",
+      "Precio": "3.000"
+    }
+  ],
+  "Usuarios": [
+    {
+      "id": "4",
+      "usuario": "vic",
+      "correo": "vic@gmail.com",
+      "contrasena": "1234"
+    },
+    {
+      "id": "bd32",
+      "NomProducto": "Collares Pequeños",
+      "precio": "5.000",
+      "material": "acero"
+    },
+    {
+      "id": "cb36",
+      "NomProducto": "Collares Pequeños",
+      "precio": "5.000",
+      "material": "acero"
+    },
+    {
+      "id": "a842",
+      "NomProducto": "a",
+      "precio": "",
+      "material": ""
+    }
+  ]
+}
