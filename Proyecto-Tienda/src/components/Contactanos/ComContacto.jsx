@@ -2,8 +2,19 @@
 import './contac.css'
 
 const ComContacto = () => {
+        
+  function MjsContac() {
+    alert("Comentario enviado, gracias")
+  }
   return (
     <div>
+      <div>
+      <input type="text" name="" id="" placeholder='Nom. Usuario'/>
+      <br /><br />
+      <input type="text" name="" id="" placeholder='Comentario' />
+      <br /><br />
+      <button onClick={MjsContac}>Enviar</button>
+      </div>
         <br />
           <h4 className='tite'>Contactos</h4>
           <br />

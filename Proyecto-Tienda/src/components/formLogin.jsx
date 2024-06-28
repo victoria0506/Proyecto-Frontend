@@ -3,6 +3,7 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import userGET from "../service/getUser"
+import "./login.css"
 
 function Formlogin() {
 
@@ -38,19 +39,22 @@ function Formlogin() {
 
   return (
     <div className="login">
-        <h5>{mensaje}</h5>
-        <label htmlFor="">Usuario : </label>
-        <input type="text"  value={usu} onChange={e => setUsu(e.target.value)} />
+       <div className="logn2">
+       <h2>Login</h2>
+       <h5>{mensaje}</h5>
+        <label htmlFor="">Usuario :  </label>
+        <input type="text" className="inLogi"  value={usu} onChange={e => setUsu(e.target.value)} placeholder="Nom. Usuario" />
         <br /><br />
         <label htmlFor="">Correo : </label>
-        <input type="text" value={correo} onChange={e => setCorreo(e.target.value)}/>
+        <input type="text" className="inLogi" value={correo} onChange={e => setCorreo(e.target.value)} placeholder="Correo"/>
         <br /><br />
-        <label htmlFor="">contraseña : </label>
-        <input type="text"  value={conta} onChange={e => setConta(e.target.value)} />
+        <label htmlFor="">Contraseña : </label>
+        <input type="text" className="inLogi" value={conta} onChange={e => setConta(e.target.value)} placeholder="Contraseña" />
         <br /><br />
         <button><Link to='/registro'>Ir a registrarme</Link></button>
         <br /><br />
         <button onClick={envioInicio}>Logiarme</button>
+       </div>
     </div>
   )
 }

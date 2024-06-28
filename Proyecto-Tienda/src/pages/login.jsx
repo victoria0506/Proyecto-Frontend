@@ -6,7 +6,6 @@ import Navbari from "../components/navbar"
 const login = () => {
   return (
     <div>
-      <h2>Login</h2>
       <Formlogin />
     </div>
   )

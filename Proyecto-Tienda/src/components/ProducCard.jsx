@@ -14,10 +14,9 @@ const ProducCard = () => {
      <Card style={{ width: '18rem', fontFamily : "Sterling" }}>
       <Card.Img variant="top" src="https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-solestependant-60572852_1023221_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp" />
       <Card.Body>
-        <Card.Title>Collar</Card.Title>
+        <Card.Title>Pendant</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -27,10 +26,9 @@ const ProducCard = () => {
     <Card style={{ width: '18rem', fontFamily : "Sterling" }}>
       <Card.Img variant="top" src="https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-knotpendant-73017262_1056979_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Pendant</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -39,10 +37,9 @@ const ProducCard = () => {
     <Card style={{ width: '18rem', fontFamily : "Sterling" }}>
       <Card.Img variant="top" src="https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-solitaire-diamond-pendant-30420837_1036474_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Pendant</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -51,10 +48,9 @@ const ProducCard = () => {
     <Card style={{ width: '18rem', fontFamily : "Sterling" }}>
       <Card.Img variant="top" src="https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-hardwearlarge-double-link-pendant-63104345_999443_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Pendant</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>

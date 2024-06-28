@@ -1,7 +1,7 @@
 
 import Routing from './routes/route'
 import Navbari from './components/navbar/navbar'
-import './App.css'
+import "./App.css"
 
 function App() {
 
