@@ -37,6 +37,12 @@
       "NomProducto": "a",
       "precio": "",
       "material": ""
+    },
+    {
+      "id": "9768",
+      "usuario": "hola",
+      "correo": "hola@gmail.com",
+      "contrasena": "0987"
     }
   ]
 }

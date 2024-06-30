@@ -1,18 +1,15 @@
 
 import ComHome from '../components/ComHome'
+import ProducCard from '../components/ProducCard'
 
-import Navbari from '../components/navbar'
 
 
 
 const home = () => {
   return (
     <div>
-
-
-      <Navbari />
-
       <ComHome />
+      <ProducCard />
     </div>
   )
 }

@@ -1,9 +1,11 @@
+import ComContacto from "../components/Contactanos/ComContacto"
 
 
 const contact = () => {
   return (
     <div>
-      <h4>Contactos</h4>
+      <br />
+      <ComContacto />
     </div>
   )
 }

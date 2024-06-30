@@ -1,7 +1,7 @@
 import {useState } from "react"
 import { Link } from "react-router-dom"
 import AddPost from "../service/PostUser"
-
+import "./registro.css"
 
 function FormRegistro() {
 
@@ -22,20 +22,23 @@ const mostrar = async ()=>{
 }
 
   return (
-    <div className="login">
-        <h5>{mensaje}</h5>
+    <div className="login4">
+       <div className="logn6">
+        <h2>Registro</h2>
+       <h5>{mensaje}</h5>
         <label htmlFor="">Usuario : </label>
-        <input type="text" value={usuario} onChange={e => setUsuario(e.target.value)}/>
+        <input type="text" className="inRegi" value={usuario} onChange={e => setUsuario(e.target.value)} placeholder="Nom. Usuario"/>
         <br /><br />
         <label htmlFor="">Correo : </label>
-        <input type="text" value={correo} onChange={e => setCorreo(e.target.value)}/>
+        <input type="text" className="inRegi" value={correo} onChange={e => setCorreo(e.target.value)} placeholder="Correo"/>
         <br /><br />
         <label htmlFor="">contraseña : </label>
-        <input type="text" value={contraseña} onChange={e => setContraseña(e.target.value)}/>
+        <input type="text" className="inRegi" value={contraseña} onChange={e => setContraseña(e.target.value)} placeholder="Contraseña"/>
         <br /><br />
         <button onClick={mostrar}>Registar Usuario</button>
         <br /><br />
         <button><Link to='/login'>Ir al login</Link></button>
+       </div>
     </div>
   )
 }
